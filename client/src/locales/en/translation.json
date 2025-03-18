@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "getQuote": "Get a Quote"
+  },
+  "common": {
+    "contact": "Contact",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "home": "Home",
+    "readMore": "Read More",
+    "getInTouch": "Get in Touch",
+    "learnMore": "Learn More",
+    "requestConsultation": "Request a Consultation"
+  },
+  "home": {
+    "hero": {
+      "title": "Innovative Construction Solutions",
+      "subtitle": "Building the Future with Sustainable Technologies",
+      "cta": "Explore Our Services"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions for all your construction needs"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Browse our latest work and success stories"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Hear from those who've experienced our quality work"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Next Construction Project?",
+      "subtitle": "Contact us today to discuss how our innovative construction solutions can meet your needs for efficiency, sustainability, and quality.",
+      "formTitle": "Get a Free Consultation",
+      "form": {
+        "nameLabel": "Full Name",
+        "emailLabel": "Email Address",
+        "phoneLabel": "Phone Number",
+        "serviceLabel": "Service Interested In",
+        "messageLabel": "Project Details",
+        "namePlaceholder": "John Doe",
+        "emailPlaceholder": "john@example.com",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "servicePlaceholder": "Select a service",
+        "messagePlaceholder": "Tell us about your project...",
+        "submit": "Submit Request",
+        "submitting": "Submitting..."
+      },
+      "emailUs": "Email Us",
+      "callUs": "Call Us",
+      "visitUs": "Visit Us",
+      "workingHours": "Business Hours",
+      "workingHoursWeekday": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "workingHoursWeekend": "Saturday: 10:00 AM - 4:00 PM"
+    }
+  },
+  "services": {
+    "structural": {
+      "title": "Structural Solutions",
+      "subtitle": "Building strong, reliable structures"
+    },
+    "cladding": {
+      "title": "Cladding Options",
+      "subtitle": "Durable, aesthetic exterior solutions"
+    },
+    "prefab": {
+      "title": "Prefabricated Construction",
+      "subtitle": "Fast, efficient building methods"
+    },
+    "greenhouse": {
+      "title": "Solar Greenhouse",
+      "subtitle": "Sustainable growing environments"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Muretta Construction. All rights reserved.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "social": "Social",
+    "contact": "Contact Us"
+  },
+  "global": {
+    "language": "Language",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "locations": {
+    "title": "Our Global Presence",
+    "subtitle": "Reach out to Muretta today for all your construction needs. Let's work together to bring your vision to life.",
+    "locations": [
+      "Montreal", 
+      "Gatineau", 
+      "Ottawa", 
+      "Quebec", 
+      "Sydney", 
+      "Dakar", 
+      "Campbelltown", 
+      "Miami", 
+      "Arradon", 
+      "Curitiba", 
+      "Tianjin City"
+    ]
+  }
+}

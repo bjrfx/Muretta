@@ -1,0 +1,127 @@
+{
+  "navigation": {
+    "getQuote": "Obtenir un devis"
+  },
+  "common": {
+    "contact": "Contact",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "home": "Accueil",
+    "readMore": "Lire plus",
+    "getInTouch": "Nous contacter",
+    "learnMore": "En savoir plus",
+    "requestConsultation": "Demander une consultation",
+    "other": "Autre"
+  },
+  "home": {
+    "hero": {
+      "title": "Solutions de Construction Innovantes",
+      "subtitle": "Construire l'avenir avec des technologies durables",
+      "cta": "Explorer nos services"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Des solutions complètes pour tous vos besoins de construction"
+    },
+    "projects": {
+      "title": "Projets Vedettes",
+      "subtitle": "Découvrez nos dernières réalisations et histoires de réussite"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos clients",
+      "subtitle": "Écoutez ceux qui ont expérimenté notre travail de qualité"
+    },
+    "cta": {
+      "title": "Prêt à transformer votre prochain projet de construction ?",
+      "subtitle": "Contactez-nous aujourd'hui pour discuter de la façon dont nos solutions de construction innovantes peuvent répondre à vos besoins d'efficacité, de durabilité et de qualité.",
+      "formTitle": "Obtenez une consultation gratuite",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "service": "Service qui vous intéresse",
+      "message": "Détails du projet",
+      "submit": "Soumettre la demande",
+      "submitting": "Soumission en cours...",
+      "emailUs": "Envoyez-nous un e-mail",
+      "callUs": "Appelez-nous",
+      "visitUs": "Visitez-nous",
+      "workingHours": "Heures d'ouverture",
+      "workingHoursWeekday": "Lundi - Vendredi: 9h - 18h",
+      "workingHoursWeekend": "Week-ends: Sur rendez-vous",
+      "emailPlaceholder": "jean@exemple.com",
+      "namePlaceholder": "Jean Dupont",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "messagePlaceholder": "Parlez-nous de votre projet...",
+      "selectService": "Sélectionnez un service",
+      "form": {
+        "nameLabel": "Nom complet",
+        "namePlaceholder": "Jean Dupont",
+        "emailLabel": "Adresse e-mail",
+        "emailPlaceholder": "jean@exemple.com",
+        "phoneLabel": "Numéro de téléphone",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "serviceLabel": "Service qui vous intéresse",
+        "servicePlaceholder": "Sélectionnez un service",
+        "messageLabel": "Détails du projet",
+        "messagePlaceholder": "Parlez-nous de votre projet...",
+        "submit": "Soumettre la demande",
+        "submitting": "Soumission en cours..."
+      }
+    }
+  },
+  "services": {
+    "structural": {
+      "title": "Solutions Structurelles",
+      "subtitle": "Construire des structures solides et fiables",
+      "sip": "Panneaux Structuraux Isolés (SIP)",
+      "csf": "Acier Formé à Froid (CSF)",
+      "timber": "Construction en Bois"
+    },
+    "cladding": {
+      "title": "Options de Revêtement",
+      "subtitle": "Solutions extérieures durables et esthétiques",
+      "wpc": "Revêtement WPC",
+      "aluminum": "Revêtement en Aluminium",
+      "terracotta": "Terracotta"
+    },
+    "prefab": {
+      "title": "Construction Préfabriquée",
+      "subtitle": "Méthodes de construction rapides et efficaces"
+    },
+    "greenhouse": {
+      "title": "Serre Solaire",
+      "subtitle": "Environnements de croissance durables"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Muretta Construction. Tous droits réservés.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "social": "Social",
+    "contact": "Contactez-nous"
+  },
+  "global": {
+    "language": "Langue",
+    "theme": "Thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre"
+  },
+  "locations": {
+    "title": "Notre Présence Mondiale",
+    "subtitle": "Contactez Muretta dès aujourd'hui pour tous vos besoins en construction. Travaillons ensemble pour donner vie à votre vision.",
+    "locations": [
+      "Montréal", 
+      "Gatineau", 
+      "Ottawa", 
+      "Québec", 
+      "Sydney", 
+      "Dakar", 
+      "Campbelltown", 
+      "Miami", 
+      "Arradon", 
+      "Curitiba", 
+      "Tianjin"
+    ]
+  }
+}
