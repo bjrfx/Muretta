@@ -4,6 +4,7 @@ interface TeamMember {
   name: string;
   role: string;
   description: string;
+  imageUrl: string;
 }
 
 const teamMembers: TeamMember[] = [
@@ -11,21 +12,25 @@ const teamMembers: TeamMember[] = [
     name: 'Gerard',
     role: 'Business Development',
     description: 'Bringing innovation and quality to every project.',
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Gerard',
   },
   {
     name: 'Moe',
     role: 'Project Manager',
     description: 'Passionate about sustainable construction practices.',
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Moe',
   },
   {
     name: 'Claude',
     role: 'Sales Representative',
     description: 'Committed to delivering exceptional results.',
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Claude',
   },
   {
     name: 'Alain',
     role: 'Technical Coordinator',
     description: 'Diverse talents coming together for excellence.',
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Alain',
   },
 ];
 
@@ -121,6 +126,11 @@ const About: FC = () => {
               key={member.name} 
               className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 dark:border-gray-700 backdrop-blur-sm hover:bg-gradient-to-br hover:from-white hover:to-gray-50 dark:hover:from-gray-800 dark:hover:to-gray-700"
             >
+              <img
+                src={member.imageUrl}
+                alt={`${member.name}'s profile`}
+                className="w-24 h-24 mx-auto mb-4 rounded-full bg-gray-100 dark:bg-gray-700"
+              />
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{member.name}</h3>
               <p className="text-primary-600 dark:text-primary-400 font-medium mb-3">{member.role}</p>
               <p className="text-gray-700 dark:text-gray-300">{member.description}</p>
