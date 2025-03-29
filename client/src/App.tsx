@@ -64,6 +64,7 @@ function App() {
                 <Route path="/" component={Home} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/projects" component={Projects} />
+                <Route path="/prefab-models" component={Projects} />
                 <Route path="/projects/:id" component={ProjectDetail} />
                 <Route path="/structural/sip" component={SIP} />
                 <Route path="/structural/csf" component={CSF} />

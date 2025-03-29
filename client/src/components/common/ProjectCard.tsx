@@ -44,7 +44,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.shortDescription}
         </p>
         <Link href={`/projects/${project.id}`} className="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:underline">
-          View Project Details
+          View Prefab Details
           <ArrowRight className="ml-2 h-4 w-4" />
         </Link>
       </CardContent>

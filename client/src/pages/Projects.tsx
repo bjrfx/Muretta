@@ -17,9 +17,9 @@ export default function Projects() {
     <section className="py-16 md:py-24 bg-white dark:bg-slate-900">
       <Container>
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Projects</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Prefabs</h1>
           <p className="text-lg text-slate-600 dark:text-slate-400">
-            Discover our complete portfolio of construction projects across various sectors.
+            Discover our complete portfolio of construction prefabs across various sectors.
           </p>
         </div>
 

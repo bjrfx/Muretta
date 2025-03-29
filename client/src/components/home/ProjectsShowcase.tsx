@@ -26,7 +26,7 @@ export default function ProjectsShowcase() {
     <section className="py-16 md:py-24 bg-white dark:bg-slate-900">
       <Container>
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Recent Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Recent Prefabs</h2>
           <p className="text-lg text-slate-600 dark:text-slate-400">
             Explore our portfolio of innovative construction solutions delivered across residential and commercial sectors.
           </p>
@@ -53,9 +53,9 @@ export default function ProjectsShowcase() {
           viewport={{ once: true }}
           transition={{ delay: 0.6 }}
         >
-          <Link href="/projects">
+          <Link href="/prefab-models">
             <Button variant="outline" size="lg">
-              View All Projects
+              View All Prefabs
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>

@@ -11,6 +11,7 @@ import { useMutation } from "@tanstack/react-query";
 import { saveContactForm } from "@/lib/firebase";
 import { useToast } from "@/hooks/use-toast";
 import { Linkedin, Twitter, Facebook, Instagram, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { PinterestIcon, BlueskyIcon, YouTubeIcon } from "@/components/icons/custom-icons";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
@@ -157,12 +158,12 @@ export default function CTASection() {
               </div>
             </div>
             
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap">
               <a
                 href="https://www.linkedin.com/company/muretta"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
@@ -171,7 +172,7 @@ export default function CTASection() {
                 href="https://x.com/muretta_"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
@@ -180,7 +181,7 @@ export default function CTASection() {
                 href="https://www.facebook.com/muretta.info/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -189,10 +190,37 @@ export default function CTASection() {
                 href="https://www.instagram.com/murettaca/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.pinterest.com/muretta_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
+                aria-label="Pinterest"
+              >
+                <PinterestIcon className="h-5 w-5" />
+              </a>
+              <a
+                href="https://bsky.app/profile/muretta.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
+                aria-label="Bluesky"
+              >
+                <BlueskyIcon className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.youtube.com/@muretta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors mb-2"
+                aria-label="YouTube"
+              >
+                <YouTubeIcon className="h-5 w-5" />
               </a>
             </div>
           </motion.div>

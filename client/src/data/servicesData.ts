@@ -2,7 +2,7 @@ import sipImg2 from '../assets/sip/sip-2.avif';
 import sipImg1 from '../assets/sip/sip1.avif'
 import claddingImg from '../assets/cladding/cladding.jpg'
 import urbanfarmingImg from '../assets/solargreenhouse/urbanfarming.avif'
-import model1 from '../assets/prefab/model1/model1.avif'
+import model1 from '../assets/prefab/model1/model1.jpg'
 export interface ServiceItem {
   id: string;
   title: string;

@@ -8,6 +8,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { MapPin, Mail, Phone, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { PinterestIcon, BlueskyIcon, YouTubeIcon } from "@/components/icons/custom-icons";
 import { staggerContainer, fadeIn } from "@/lib/motion";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -102,22 +103,34 @@ const ContactSection = () => {
               </div>
             </div>
             
-            <div className="mt-8 flex space-x-4">
-              <a href="https://www.facebook.com/muretta.info/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+            <div className="mt-8 flex space-x-4 flex-wrap">
+              <a href="https://www.facebook.com/muretta.info/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
                 <span className="sr-only">Facebook</span>
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="https://www.instagram.com/murettaca/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+              <a href="https://www.instagram.com/murettaca/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="https://x.com/muretta_" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+              <a href="https://x.com/muretta_" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="https://www.linkedin.com/company/muretta" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+              <a href="https://www.linkedin.com/company/muretta" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-6 w-6" />
+              </a>
+              <a href="https://www.pinterest.com/muretta_/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
+                <span className="sr-only">Pinterest</span>
+                <PinterestIcon className="h-6 w-6" />
+              </a>
+              <a href="https://bsky.app/profile/muretta.bsky.social" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
+                <span className="sr-only">Bluesky</span>
+                <BlueskyIcon className="h-6 w-6" />
+              </a>
+              <a href="https://www.youtube.com/@muretta" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 mb-2 mr-2">
+                <span className="sr-only">YouTube</span>
+                <YouTubeIcon className="h-6 w-6" />
               </a>
             </div>
           </motion.div>

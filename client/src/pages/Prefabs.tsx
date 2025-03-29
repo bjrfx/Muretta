@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Check, ArrowRight, Clock, CheckSquare, DollarSign, Recycle } from "lucide-react";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-
+import prefabImg from '../assets/prefab/model1/3.jpg';
 export default function Prefabs() {
   useEffect(() => {
     // Update metadata for SEO
@@ -30,7 +30,7 @@ export default function Prefabs() {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1621696177325-2b752e6117e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                src={prefabImg}
                 alt="Prefabricated Construction"
                 className="rounded-xl shadow-xl"
               />
@@ -181,7 +181,7 @@ export default function Prefabs() {
               <li>Emergency and temporary structures</li>
             </ul>
             
-            <div className="bg-slate-100 dark:bg-slate-800 p-8 rounded-lg">
+            <div className="bg-slate-100 dark:bg-slate-800 p-8 rounded-lg mb-8">
               <h3 className="text-xl font-semibold mb-4">Ready to transform your construction process?</h3>
               <p className="mb-6">
                 Contact our prefabrication specialists to discuss how our solutions can make your next project faster, more efficient, and more sustainable. We'll guide you through the options and help you determine the best approach for your specific needs.
@@ -189,6 +189,19 @@ export default function Prefabs() {
               <Link href="/contact">
                 <Button size="lg">
                   Start Your Prefab Project
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+            
+            <div className="bg-primary-50 dark:bg-primary-900/20 p-8 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">Explore Our Prefab Models</h3>
+              <p className="mb-6">
+                Browse our complete collection of prefabricated building models, designed for various applications from residential homes to commercial spaces. Our prefab models combine innovative design with efficient construction methods, offering you sustainable and cost-effective building solutions.
+              </p>
+              <Link href="/prefab-models">
+                <Button variant="outline" size="lg">
+                  View All Prefab Models
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>

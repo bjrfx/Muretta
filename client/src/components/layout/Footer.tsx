@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Container } from "@/components/ui/container";
 import { navigationData } from "@/data/navigationData";
+import mapImg from '../../assets/map1.png';
 import { 
   Linkedin, 
   Twitter, 
@@ -11,6 +12,7 @@ import {
   Mail, 
   Clock 
 } from "lucide-react";
+import { PinterestIcon, BlueskyIcon, YouTubeIcon } from "@/components/icons/custom-icons";
 
 export default function Footer() {
   return (
@@ -22,7 +24,7 @@ export default function Footer() {
             <p className="text-slate-400 mb-6">
               Leading provider of modern construction solutions for a sustainable and efficient built environment.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap">
               <a 
                 href="https://www.linkedin.com/company/muretta" 
                 target="_blank" 
@@ -58,6 +60,33 @@ export default function Footer() {
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://www.pinterest.com/muretta_/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-slate-800 hover:bg-slate-700 flex items-center justify-center transition-colors"
+                aria-label="Pinterest"
+              >
+                <PinterestIcon className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://bsky.app/profile/muretta.bsky.social" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-slate-800 hover:bg-slate-700 flex items-center justify-center transition-colors"
+                aria-label="Bluesky"
+              >
+                <BlueskyIcon className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://www.youtube.com/@muretta" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-slate-800 hover:bg-slate-700 flex items-center justify-center transition-colors"
+                aria-label="YouTube"
+              >
+                <YouTubeIcon className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -117,8 +146,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-slate-400 hover:text-white transition-colors">
-                  Projects
+                <Link href="/prefab-models" className="text-slate-400 hover:text-white transition-colors">
+                  Prefab Models
                 </Link>
               </li>
               <li>
@@ -168,7 +197,70 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+        {/* Global Presence */}
+        <div className="pt-8 pb-8 border-t border-slate-800">
+          <h3 className="text-xl font-bold mb-6 text-center">Our Global Presence</h3>
+          {/* Desktop: Map on left, countries on right */}
+          <div className="hidden md:flex md:flex-row md:gap-8 md:items-start">
+            <div className="md:w-1/2 flex justify-center">
+              <img src={mapImg} alt="Global Map" className="w-full rounded-lg shadow-lg" />
+            </div>
+            <div className="md:w-1/2">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {[
+                  "Montreal",
+                  "Gatineau",
+                  "Ottawa",
+                  "Quebec",
+                  "Sydney",
+                  "Dakar",
+                  "Campbelltown",
+                  "Miami",
+                  "Arradon",
+                  "Curitiba",
+                  "Tianjin City"
+                ].map((city, index) => (
+                  <div 
+                    key={index} 
+                    className="bg-slate-800 hover:bg-slate-700 p-3 rounded-lg transition-colors flex items-center justify-center"
+                  >
+                    <span className="text-slate-300 hover:text-white font-medium text-center">{city}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          
+          {/* Mobile: Map on top, countries below */}
+          <div className="md:hidden flex flex-col gap-6">
+            <div className="flex justify-center">
+              <img src={mapImg} alt="Global Map" className="w-full max-w-3xl rounded-lg shadow-lg" />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              {[
+                "Montreal",
+                "Gatineau",
+                "Ottawa",
+                "Quebec",
+                "Sydney",
+                "Dakar",
+                "Campbelltown",
+                "Miami",
+                "Arradon",
+                "Curitiba",
+                "Tianjin City"
+              ].map((city, index) => (
+                <div 
+                  key={index} 
+                  className="bg-slate-800 hover:bg-slate-700 p-3 rounded-lg transition-colors flex items-center justify-center"
+                >
+                  <span className="text-slate-300 hover:text-white font-medium text-center">{city}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <div className="pt-8 border-t border-slate-800 text-center md:flex md:justify-between md:items-center">
           <p className="text-slate-500 mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Muretta. All rights reserved.
