@@ -1,4 +1,4 @@
-import model1 from '../assets/prefab/model1/model1.jpg'
+import model1 from '../assets/prefab/model1/2.jpg'
 import model1plan from '../assets/prefab/model1/plan.jpg'
 import model2 from '../assets/prefab/model2/1.jpg'
 import model2plan from '../assets/prefab/model2/plan.png'
