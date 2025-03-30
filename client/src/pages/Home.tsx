@@ -5,6 +5,7 @@ import ProjectsShowcase from "@/components/home/ProjectsShowcase";
 import Partners from "@/components/home/Partners";
 import Testimonials from "@/components/home/Testimonials";
 import CTASection from "@/components/home/CTASection";
+import ImageSlider from "@/components/home/ImageSlider";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <ImageSlider />
       <ServicesOverview />
       <FeaturedSolution />
       <ProjectsShowcase />
