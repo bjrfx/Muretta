@@ -26,7 +26,8 @@ export default function ProjectsShowcase() {
     <section className="py-16 md:py-24 bg-white dark:bg-slate-900">
       <Container>
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Recent Prefabs</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-0">OUR PREFAB MODELS</h2>
+          <p className="text-xl text-primary-600 dark:text-primary-400 font-semibold mb-4">ARIZONA SERIES</p>
           <p className="text-lg text-slate-600 dark:text-slate-400">
             Explore our portfolio of innovative construction solutions delivered across residential and commercial sectors.
           </p>
